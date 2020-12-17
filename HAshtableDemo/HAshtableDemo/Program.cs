@@ -30,6 +30,7 @@ namespace HAshtableDemo
             int index2 = 15;
             string choice2 = myMapNod.Get(index2);
             Console.WriteLine("{0}th index values : is {1}", index2, choice2);
+            myMapNod.Remove(index);
 
 
         }
